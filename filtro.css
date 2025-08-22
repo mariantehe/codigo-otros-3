@@ -4,15 +4,21 @@ input {
   font-size: 18px;
 }
 
+.lista{
+  text-align: center;
+  color: rgb(43, 91, 194);
+  font-size: 3rem;
+}
+
 #lista-de-productos {
-  display: flex
+  display: flex;
 }
 
 .producto {
   width: 200px;
   height: 200px;
   margin: 10px;
-  border: 2px solid black;
+  border: 2px solid rgb(89, 140, 235);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,5 +26,14 @@ input {
 
 .producto img {
   width: 70%;
-  height: auto
+  height: auto;
+}
+
+.cole{
+  background-color: rgb(228, 246, 253);
+}
+
+.btn-filtrar{
+  color: rgb(18, 16, 52);
+  background-color: rgb(175, 213, 255);
 }
